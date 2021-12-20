@@ -149,6 +149,7 @@ public Properties prop;
 			testcase.log(Status.FAIL, "iFrameHandle NOT Successful");
 		}
 	}
+	
 	@BeforeSuite
 	public void beforeSuite() {
 		extentReports = new ExtentReports();
@@ -160,5 +161,6 @@ public Properties prop;
 		driver.quit();
 		extentReports.flush();
 	}
+
 	
 }
